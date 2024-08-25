@@ -1,0 +1,71 @@
+html,
+body {
+    color: black;
+    background: rgb(212, 212, 212);
+    font-size: 18px;
+    overflow-x: hidden;
+    scroll-behavior: initial;
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    font-style: normal;
+    color: lightseagreen;
+    line-height: calc(100px * 1.1);
+    letter-spacing: calc(0.1em * 100px);
+}
+
+#main_canvas_wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+#bg-canvas {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+
+.tp-dfwv {
+    z-index: 2;
+}
